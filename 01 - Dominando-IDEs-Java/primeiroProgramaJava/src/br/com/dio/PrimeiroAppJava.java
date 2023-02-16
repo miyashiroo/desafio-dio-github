@@ -12,6 +12,7 @@ public class PrimeiroAppJava {
 		Livros livros = new Livros();
 
 		System.out.println(livros);
+		System.out.println("Testando o GIT pelo Eclipse");
 
 	}
 
