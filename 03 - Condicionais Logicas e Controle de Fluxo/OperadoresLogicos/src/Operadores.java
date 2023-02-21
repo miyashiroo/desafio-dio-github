@@ -8,5 +8,10 @@ public class Operadores {
         Negação - não/inversão -> !
 
          */
+        boolean b1 = true;
+        boolean b2 = false;
+        boolean b3 = true;
+
+        System.out.println(b1 ^ b3);
     }
 }

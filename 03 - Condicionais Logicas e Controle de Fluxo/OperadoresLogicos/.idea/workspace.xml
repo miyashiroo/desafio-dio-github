@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="235a56a1-6c64-4e5d-9975-855b3a8cac7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../02 - Sintaxe-Java/OperadoresRelacionais/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OperadoresLogicos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02 - Sintaxe-Java/OperadoresRelacionais/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02 - Sintaxe-Java/OperadoresRelacionais/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02 - Sintaxe-Java/OperadoresRelacionais/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02 - Sintaxe-Java/OperadoresRelacionais/src/Main.java" afterDir="false" />
+    <list default="true" id="235a56a1-6c64-4e5d-9975-855b3a8cac7f" name="Changes" comment="Operadores Logicos">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operadores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +46,19 @@
       <option name="presentableId" value="Default" />
       <updated>1677003483186</updated>
     </task>
+    <task id="LOCAL-00001" summary="Operadores Logicos">
+      <created>1677003669216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677003669216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Operadores Logicos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operadores Logicos" />
   </component>
 </project>
