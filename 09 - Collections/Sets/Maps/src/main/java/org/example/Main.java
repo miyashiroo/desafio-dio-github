@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Crie um dicionário: ");
         Map<String,Double> carros = new HashMap<>(){{
            put("Hass", 13d);
-           put("Mclaren", 34d);
+           put("Mclaren", 15.6);
            put("Renault", 12.1);
            put("Ferrari" ,34d);
            put("ford", 4d);
@@ -47,7 +47,59 @@ public class Main {
             }
 
         }
+        System.out.println("menos eficiente: ");
+        Double consumoMenosEficiente = Collections.min(carros.values());
+        String modeloMenosEficiente = "";
 
+
+        for (Map.Entry<String,Double> entry : carros.entrySet()
+             ) {
+            if (entry.getValue().equals(consumoMenosEficiente)){
+                modeloMenosEficiente = entry.getKey();
+                System.out.println("Modelo menos eficiente: " + modeloMenosEficiente + " -> " + consumoMenosEficiente);
+            }
+        }
+
+
+
+        Iterator<Double> iterator = carros.values().iterator();
+        Double soma = 0d;
+        while (iterator.hasNext()){
+            Double next = iterator.next();
+            soma += next;
+
+        }
+        System.out.println("Exiba a soma dos consumos: " + soma) ;
+
+        System.out.println("Exiba a media dos consumos do dicionario: " + soma/carros.size());
+        System.out.println(carros);
+        System.out.println("Remover o consumo de 15.6: ");
+        Iterator<Double> iterator1 = carros.values().iterator();
+
+        while (iterator1.hasNext()){
+            Double next = iterator1.next();
+            if (next.equals(15.6)) {
+                iterator1.remove();
+            }
+        }
+        System.out.println(carros);
+
+        System.out.println("exiba todos os carros na ordem em que foram informados: ");
+        Map<String,Double> carrosPopularesLinked = new LinkedHashMap<>(){{
+            put("Hass", 13d);
+            put("Mclaren", 15.6);
+            put("Renault", 12.1);
+            put("Ferrari" ,34d);
+            put("Ford", 4d);
+
+
+        }};
+
+        System.out.println(carrosPopularesLinked.toString());
+
+        System.out.println("Exiba o dicionario ordenado pelo modelo: ");
+        Map<String, Double> carrosTreeMap = new TreeMap<>(carrosPopularesLinked);
+        System.out.println(carrosTreeMap.toString());
 
 
     }
